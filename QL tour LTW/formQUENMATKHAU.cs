@@ -43,8 +43,8 @@ namespace QL_tour_LTW
         }
         private void SendEmail(string toEmail, string subject, string body)
         {
-            string fromEmail = "chutienbinh2003@gmail.com"; // Thay thế bằng địa chỉ email của bạn
-            string password = "sshe aybc vncy mwsb"; // Thay thế bằng mật khẩu email của bạn
+            string fromEmail = ""; // Thay thế bằng địa chỉ email của bạn
+            string password = ""; // Thay thế bằng mật khẩu B2 email của bạn
 
             MailMessage mail = new MailMessage(fromEmail, toEmail, subject, body);
             SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
